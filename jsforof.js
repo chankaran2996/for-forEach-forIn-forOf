@@ -5,7 +5,7 @@ const outPutOfForOf=(data)=>{
   }
 
   const restContries=async()=>{
-      let response=await fetch('https://restcountries.eu/rest/v2/alpha/col',{
+      let response=await fetch('https://restcountries.eu/rest/v2/all',{
         method:'GET'
       });
       let data=await response.json();
